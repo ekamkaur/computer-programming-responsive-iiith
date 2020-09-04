@@ -1,3 +1,11 @@
+function unblock()
+{
+	document.getElementById('userInput').style.display='block';
+}
+function block()
+{
+	document.getElementById('userInput').style.display='none';
+}
 window.view = {
 	numbers: new Array(),
 	lastRedDiv: new Object(),
