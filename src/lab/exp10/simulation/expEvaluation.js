@@ -1,3 +1,10 @@
+function tozero()
+{
+	document.getElementById('a').value = 0;
+	document.getElementById('b').value = 0;
+	document.getElementById('c').value = 0;
+	document.getElementById('d').value = 0;
+}
 window.model = {	
 	a: '',
 	b: '',
